@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Fri Oct 21 15:11:10 KST 2022
+org.eclipse.jst.jee.server\:cyworld=C\:\\javas\\apache-tomcat-9.0.58\\wtpwebapps\\cyworld
+org.eclipse.jst.jee.server\:cyw=C\:\\javas\\apache-tomcat-9.0.58\\wtpwebapps\\cyw
+org.eclipse.jst.jee.server\:testweb=C\:\\javas\\apache-tomcat-9.0.58\\wtpwebapps\\testweb

@@ -1,0 +1,104 @@
+body{	background-color: #898989;	padding: 0; margin: 0; }
+#wrap
+{
+	width : 950px;
+	height: 1000px;
+	background: white;
+	margin: 0 auto;
+}
+a {text-decoration: none;}
+ul{ list-style: none; }
+header{	height : 200px; }
+
+#login{	float : right;	margin: 10px;}
+#login a { color : #333; text-decoration : none;}
+#login a:hover{	color: #f90; }
+#logo{	padding: 50px 0 0 50px; }
+#logo a{ color: #f90; }
+#logo a:hover{	color: #333; }
+#header_nav {	float: right; margin-right: 50px;}
+#header_nav ul li {display: inline; margin : 0 20px;}
+#header_nav ul li a{	color : #333; 	font-size: 18px; }
+#header_nav ul li a:hover
+{
+	background-image: url(/jsExam/images/blue.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+#img_mem
+{
+	background-image: url(/jsExam/images/member/sub_back.png);
+	width: 970px;
+	height: 180px;
+	position: relative;
+	right: 10px;
+}
+#nav_sub{
+	
+	height: 400px;
+	width: 27%;
+	margin: 60px 10px 10px 10px;
+	float: left;
+}
+#nav_sub ul li a
+{
+	font-size: 18px; 
+	color: #333;
+	display: block;
+	width: 150px;
+	height: 30px;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	background-image: url(/jsExam/images/company/h_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#nav_sub ul li a:hover
+{
+	color: #f90;
+	background-image: url(/jsExam/images/bullet_orange.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#article_sub .fieldset_mem
+{
+	width: 570px;
+	padding-left: 50px;
+	margin: 20px;
+}
+#article_sub .fieldset_mem legend{ font-size: 18px; }
+#article_sub .fieldset_mem label { float: left; width: 200px; margin: 5px;}
+#article_sub .fieldset_mem #check_text{all : initial;}
+#article_sub .fieldset_mem input 
+{ 
+	width: 200px; margin: 5px;
+	background-color: #D4F4FA;
+}
+#buttons_mem
+{
+	margin: 20px;
+	position: relative;
+	left: 30px;
+}
+#buttons_mem .submit_mem, #buttons_mem .cancel_mem
+{
+	font-size: 16px;
+	width: 270px;
+	height: 40px;
+	margin: 0px 10px;
+}
+#buttons_mem .submit_mem
+{
+	background-image: url(/jsExam/images/member/submit_back.jpg);
+}
+#buttons_mem .cancel_mem
+{
+	background-image: url(/jsExam/images/member/cancel_back.jpg);
+}
+
+#copy{	float : left;	font-size : 12px;}
+#social{	float : right; }
+#copy, #social { margin: 30px;}
+footer{ margin: 20px 0px; }

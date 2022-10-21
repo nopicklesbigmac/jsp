@@ -1,0 +1,280 @@
+/* welcome.jsp */
+#img_com
+{
+	background-image: url(/care/images/company/sub_back.png);
+	width: 970px;
+	height: 180px;
+}
+#nav_sub
+{
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+	float: left;
+}
+#nav_sub ul{ font-size: 18px; }
+#nav_sub ul li a
+{
+	color: #333;
+	display: block;
+	width: 150px;
+	height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	padding: 5px;
+	background-image: url(/care/images/company/h_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+#nav_sub ul li a:hover
+{
+	color: #f90;
+	background-image: url(/care/images/bullet_orange.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+#article_sub{
+	
+	width: 650px;
+	float: left;
+	margin-left: 60px;
+}
+#article_sub figure { float: right; }
+#article_sub figure figcaption { font-size: 14px; margin-left: 37px;}
+#article_sub p { line-height: 1.9em; } 
+
+/* history.jsp */
+#y2020, #y2019
+{
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #999999;
+	width: 650px;
+	height: 300px;
+}
+#y2020 h3, #y2019 h3
+{
+	font-size: 30px;
+	font-style: italic;
+	font-weight: normal;
+	color: #f90;
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+#y2020 dl, #y2019 dl
+{
+		float: left;
+		width: 480px;
+		border-bottom-width: 1px;
+		border-bottom-style: dotted;
+		border-bottom-color: #cccccc;
+		padding-bottom: 10px;
+		margin:10px;
+}
+#y2020 dt, #y2019 dt
+{
+		font-size: 18px;
+		color: #3399ff;
+		text-transform: capitalize;
+		float: left;
+}
+#y2020 dd, #y2019 dd
+{
+	line-height: 2em;
+	background-image: url(/care/images/company/h_bullet.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-left: 50px;
+	padding-left: 25px;
+}
+
+
+/* member.jsp */
+#img_mem
+{
+	background-image: url(/care/images/member/sub_back.png);
+	width: 970px;
+	height: 180px;
+}
+#article_sub .fieldset_mem
+{
+	width: 500px;
+	padding-left: 50px;
+	margin: 20px;
+}
+#article_sub .fieldset_mem legend{ font-size: 18px; }
+#article_sub .fieldset_mem label { float: left; width: 200px; margin: 5px;}
+#article_sub .fieldset_mem input 
+{ 
+	width: 200px; margin: 5px;
+	background-color: #D4F4FA;
+}
+#buttons_mem
+{
+	width: 600px;
+	margin: 20px;
+	padding-left: 10px;
+}
+#buttons_mem .submit_mem, #buttons_mem .cancel_mem
+{
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid;
+	width: 270px;
+	height: 40px;
+}
+#buttons_mem .submit_mem
+{
+	background-image: url(/care/images/member/submit_back.jpg);
+}
+#buttons_mem .cancel_mem
+{
+	background-image: url(/care/images/member/cancel_back.jpg);
+}
+
+/* login.jsp */
+#form_login
+{
+	width: 550px;
+	height: 250px;
+	margin: 60px 20px 20px 20px;	
+}
+#form_login label 
+{ 
+	font-size: 18px;
+	float: left; 
+	width: 200px; 
+	margin: 5px; 
+	padding-left: 80px;
+}
+#form_login input 
+{ 
+	width: 200px; margin: 5px;
+	background-color: #D4F4FA;
+	height: 25px;
+}
+#buttons_login
+{
+	width: 500px;
+	margin: 20px;
+	padding-left: 60px;
+}
+#buttons_login .submit_mem, #buttons_login .cancel_mem
+{
+	font-size: 16px;
+	color: #fff;
+	border: 1px solid;
+	width: 200px;
+	height: 40px;
+}
+#buttons_login .submit_mem
+{
+	background-image: url(/care/images/member/submit_back.jpg);
+}
+#buttons_login .cancel_mem
+{
+	background-image: url(/care/images/member/cancel_back.jpg);
+}
+/*list.jsp*/
+
+#article_sub h1 { font-size: 30px;}
+#article_sub table { width: 640px;} 
+#article_sub table th
+{
+	background-image: url(/care/images/center/t_back.jpg);
+	background-repeat: repeat-x;
+	background-position : center;
+	font-size: 20px;
+	color: #fff;
+	padding: 5px;
+}
+.title {width: 300px;}
+#article_sub table td
+{
+	text-align: center;
+	border-bottom: 1px dotted;
+	padding: 5px;
+}
+#article_sub .subject a { color: #333; }
+#article_sub .subject a:hover { color: #f90; }
+
+#list_form {float: right; margin-top: 10px; margin-right: 10px;}
+#list_form select, #list_form input { height: 25px; }
+
+#page_control { text-align: center;}
+#page_control a { color: #333; }
+#page_control a:hover { color: #f90; }
+
+
+/*view.php */
+#view_title
+ {
+ 	width: 100%;
+ 	height: 40px;
+ 	background-color: #eee;
+ 	border: 1px solid #ccc;
+ 	line-height: 40px;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ }
+ .view_title1
+{
+	float: left;
+	width: 49%;
+	text-align: center;
+}
+ .view_title2
+{
+	float: left;
+	width: 48%;
+	text-align: right;
+}
+#view_content
+{
+	width: 100%;
+	height: 300px;
+	border: 1px solid #ccc;
+}
+#view_file
+{
+	font-weight: bold;
+	color: #333;
+	margin-top: 5px;
+}
+/* write.jsp */
+#img_cen
+{
+	background-image: url(/care/images/center/sub_back.png);
+	width: 970px;
+	height: 180px;
+}
+#write_table{width: 100%;}
+#write_table .col1
+{
+	float: left;
+	width: 30%;
+	text-align: center;
+	background-color: #eee;
+	height: 25px;
+}
+#write_table .col2
+{
+	float: left;
+	width: 66%;
+	height: 25px;
+}
+#write_row1 .col2 { text-align : left; }
+#write_row3 .col1 { height : 200px; }
+#write_row3 .col2 { border: none; }
+#write_row3 textarea {	height : 200px;	width: 100%; }
+#write_table .col2 input
+{
+	border : 1px solid #999;
+	width : 100%;
+	height : 25px;
+}
+.line { 	border-bottom : 1px solid #ccc; 	width: 97%; }
+
+ #center_button{text-align: right; margin-right: 18px;}

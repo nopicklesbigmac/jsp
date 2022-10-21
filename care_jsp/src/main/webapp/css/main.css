@@ -1,0 +1,214 @@
+body
+{
+	background-color : #898989;
+	padding : 0;
+	margin : 0;
+}
+#wrap
+{
+	width : 1000px;
+	height : auto;
+	background-image : url(/care_jsp/images/shadow.png);
+	background-repeat : repeat-y;
+	margin-left : auto;
+	margin-right : auto;
+}
+header
+{
+	height : 200px;
+}
+#login
+{
+	float : right;
+	margin : 10px 60px 10px 0;
+}
+#login a
+{
+	text-decoration : none;
+	color : #333;
+}
+#login a:hover
+{
+	color : #f90;
+}
+#logo
+{
+	width : 250px;
+	padding : 50px 0 0 50px;
+	float : left;
+}
+#logo a
+{
+	text-decoration : none;
+	color : #f90;
+}
+#logo a:hover
+{
+	color : #333;
+}
+nav
+{
+	width : 650px;
+	float : right;
+	margin : 60px 20px 0 0;
+}
+nav ul
+{
+	list-style : none;
+	font-size : 18px;
+}
+nav ul li 
+{
+	float : left;
+	margin : 0 15px ;
+}
+nav a
+{
+	text-decoration : none;
+	color : #333;
+}
+nav a:hover
+{
+	background-image : url(../images/blue.gif);
+	background-repeat : repeat-x;
+	background-position : bottom;
+}
+#main_img
+{
+	width : 970px;
+	height : 310px;
+	background-image : url(../images/img_back.png);
+	background-repeat : no-repeat;
+	background-position : center top;
+}
+#main_img img
+{
+	margin : 10px 0 0 0;
+}
+
+#main
+{
+	margin-left : 20px;
+}
+#earth
+{
+	background : #ebebeb;
+	width : 930px;
+	height : 180px;
+	border : 1px solid #FFF;
+	border-radius : 10px;
+}
+.views
+{
+	background-image : url(/care_jsp/images/icon1.png);
+}
+.protection
+{
+	background-image : url(/care_jsp/images/icon2.png);
+}
+.app
+{
+	background-image : url(/care_jsp/images/icon3.png);
+}
+.views, .protection, .app
+{
+	background-repeat : no-repeat;
+	width : 30%;
+	float : left;
+	padding : 15px;
+	background-position : left 15px;
+}
+.views h3, .protection h3, .app h3
+{
+	margin : 10px 0 0 70px;
+}
+.views p, .protection p, .app p
+{
+	margin : 10px 0 0 70px;
+}
+
+#earthNews, #newsNotice
+{
+	width : 450px;
+	float : left;
+	margin-left : 15px;
+}
+#earthNews h3, #newsNotice h3
+{
+	background-image : url(/care_jsp/images/h3_back.jpg);
+	background-repeat : no-repeat;
+	width : 420px;
+	height : 25px;
+	font-size : 15px;
+	padding-left : 19px;
+	font-style : italic;
+}
+#earthNews .orange
+{
+	color : #f90;
+}
+#earthNews dt
+{
+	color : #FF007F;
+	font-weight : bold;
+	font-size : 19px;
+	margin : 10px 0;
+}
+#newsNotice .green
+{
+	color : #59DA50;
+}
+#newsNotice table
+{
+	width : 400px;
+	text-align : center;
+}
+#newsNotice td
+{
+	border-bottom-width : 1px;
+	border-bottom-style : dotted;
+	border-bottom-color : #476600;
+	padding : 10px;
+}
+#newsNotice td.content
+{
+	background-image : url(/care_jsp/images/tr_back.gif);
+	background-repeat : no-repeat;
+	background-position : left center;
+	text-align : left;
+}
+.clear
+{
+	clear : both;
+}
+footer hr
+{
+	width : 945px;
+	margin : 40px 0 20px 12px;
+}
+#copy
+{
+	font-size : 12px;
+	float : left;
+	margin : 10px 50px 0 50px;
+}
+#social
+{
+	width: 100px;
+	position: relative;
+	left: 850px;
+	top : -35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
