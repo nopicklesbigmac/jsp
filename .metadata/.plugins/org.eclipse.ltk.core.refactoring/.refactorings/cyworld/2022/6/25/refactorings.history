@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 elements to &apos;mypage&apos;&#x0D;&#x0A;- Original project: &apos;cyworld&apos;&#x0D;&#x0A;- Destination element: &apos;mypage&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     my_pic_upload_ok.jsp&#x0D;&#x0A;     my_pic_upload.jsp" description="Copy files" element1="src/main/webapp/WEB-INF/views/mypage/my_pic_upload_ok.jsp" element2="src/main/webapp/WEB-INF/views/mypage/my_pic_upload.jsp" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1655279396074" target="/cyw/src/main/webapp/mypage" units="0" version="1.0"/>
-</session>
